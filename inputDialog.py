@@ -41,6 +41,8 @@ class Ui_Dialog(object):
         self.spinBox = QtWidgets.QSpinBox(Dialog)
         self.spinBox.setGeometry(QtCore.QRect(170, 190, 271, 21))
         self.spinBox.setObjectName("spinBox")
+        self.spinBox.setMaximum(10)
+        self.spinBox.setMinimum(10)
         self.label_6 = QtWidgets.QLabel(Dialog)
         self.label_6.setGeometry(QtCore.QRect(30, 190, 121, 21))
         self.label_6.setObjectName("label_6")
